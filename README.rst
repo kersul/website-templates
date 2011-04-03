@@ -1,10 +1,10 @@
-About the templates
-===================
+About those templates
+=====================
 
-Those template is a free, lightweight, tableless, W3C-valid website design.
+Those templates are a free, lightweight, tableless, W3C-valid website designs.
 
 There are licensed under the `Creative Commons Attribution 3.0`_ so you're free 
-to dissect, manipulate and use this design to your heart's content.
+to dissect, manipulate and use it.
 
 Please read and agree to the terms contained within this attribution so you 
 understand the usage agreements.
