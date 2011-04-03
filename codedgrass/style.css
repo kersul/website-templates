@@ -1,0 +1,156 @@
+/**************************************
+    CSS Document by Alexandre Joseph
+    http://www.alexandrejoseph.com/
+***************************************/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background:#eee;
+	width:760px;
+	margin: 0 auto;
+	font-size:80%;
+	font-family: "Bitstream Vera Sans", Trebuchet MS, Verdana, Terminal, sans-serif;
+}
+
+#page {
+	padding-left:20px;
+	padding-right:20px;
+	background: url(./img/background.jpg) repeat-y #fff;
+}
+
+/* degrades ***************************/
+
+#shadow1 {
+	background:url(./img/shadow1.jpg) repeat-x;
+	height:19px;
+	margin:0;
+}
+
+#shadow2 {
+	background:url(./img/shadow2.jpg) repeat-x;
+	height:19px;
+	margin:0;
+}
+
+/* header ****************************/
+
+#header {
+	background: url(./img/header.jpg) no-repeat;
+	height: 110px;
+	text-align: right;
+}
+
+#header h1 a {
+	padding: 38px 5px 0 0;
+	margin:0;
+	color: #eee;
+	text-decoration: none;
+	display: block;
+	font-size: 1.1em;
+	font-variant: small-caps;
+}
+
+/* menu ******************************/
+
+#menu a {
+	color:#2f5177;
+	text-decoration:none;
+	border-bottom: 1px dotted #888;
+	letter-spacing: 0.1em;
+	font-variant: small-caps;
+}
+
+#menu a:hover {
+	color: #fe5A27;
+}
+
+#menu li {
+	display:inline;
+	margin: 1em;
+}
+
+#menu ul {
+	margin-left: 2em;
+	font-size:1em;
+}
+
+/* content *****************************/
+
+#content {
+	padding:2em;
+	padding-top: 0;
+}
+
+#content p {
+	margin-bottom:10px;
+}
+
+#content h2 {
+	font-size:1.2em;
+	font-weight:bold;
+	background: url(./img/arrow.jpg) no-repeat  0% 50%;
+	padding-left: 15px;
+	margin-top: 2em;
+}
+
+#content h3 {
+	color:#254cbb;
+	font-size: 1.1em;
+	font-weight:bold;
+	background: url(./img/arrow.gif) no-repeat  0% 50%;
+	padding-left:10px;
+	margin: 1.5em 0 0.8em 0;
+}
+
+#content h6 {
+	color:#c2cad9;
+	font-style: italic;
+	margin:0;
+	margin-bottom: 1em;
+}
+
+#content .quote-1,
+#content .quote-2 {
+	margin:30px;
+	margin-top:20px;
+	color:#555;
+	border:1px solid #eee;
+	padding:10px;
+	background: url(img/quote.gif) no-repeat  bottom right;
+}
+
+#content .quote-2 {
+	background-position: top left;
+	text-align:right;
+}
+
+#content a {
+	font-style: italic;
+	color:black;
+}
+
+#content a:hover {
+	text-decoration:none;
+}
+
+/* footer ****************************/
+
+#footer {
+	font-size:0.9em;
+	text-align:center;
+	clear:both;
+}
+
+#footer a {
+	text-decoration:none;
+	color:black;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+

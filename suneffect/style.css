@@ -1,0 +1,134 @@
+/**************************************
+    CSS Document by Alexandre Joseph
+    http://www.alexandrejoseph.com/
+***************************************/
+
+body
+{
+  font: 12px/2em "Trebuchet MS", "Lucida Grande", Verdana, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#page
+{
+  width: 43em;
+  margin-left: 17.5em;
+  background: url(images/fond.jpg) repeat-y left #fff;
+  padding: 3em 0 0.5em 4em;
+}
+
+#header h1
+{
+  color: #263d5f;
+  margin: 0;
+  padding: 0;
+}
+
+#header h1 a
+{
+  color: #263d5f;
+  text-decoration: none;
+}
+
+#header p
+{
+  color: #e06009;
+  margin: 0;
+  padding: 0;
+}
+
+#contenu
+{
+  margin-top: 3em;
+  min-height:65em;
+  height: 65em;
+}
+
+html>body #contenu
+{
+ 	height:auto;
+}
+
+#contenu h2, #menu h2
+{
+  color: #263d5f;
+  background: url(images/ligne.gif) bottom repeat-x;
+}
+
+#contenu h4 a
+{
+   color: black;
+   text-decoration: none;
+}
+
+#contenu a
+{
+	color: #e06009;
+	text-decoration: none;
+}
+
+#contenu ul#derniers_sujets li
+{
+	list-style: square;
+}
+
+#contenu ul#derniers_sujets li a:hover
+{
+	color: #263d5f;
+	text-decoration: underline;
+}
+
+#menu
+{
+  position: absolute;
+  width: 17.5em;
+  top: 0em;
+  left: 0;
+  padding: 25em 0 0;
+  background: url(images/header.jpg) no-repeat top;
+}
+
+#menu #liens
+{
+  padding: 0 2em 0 1.5em;
+}
+
+#menu ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#menu li
+{
+	list-style: none;
+	padding-left: 1em;
+}
+
+#menu li a
+{
+	padding: 0 0.5em 0;
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+
+#menu li a:hover
+{
+	background: #f9f9f9;
+}
+
+#footer
+{
+	background: url(images/ligne.gif) top repeat-x;
+	color: #263d5f;
+	text-align: center;
+	padding-top: 0.5em;
+}
+
+#footer a
+{
+	color: #263d5f;
+	text-decoration: none;
+}
