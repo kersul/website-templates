@@ -1,0 +1,101 @@
+---
+---
+
+{% include reset.css %}
+
+/* General */
+
+body {
+  font: 0.8em/1.5em Verdana, "Trebuchet MS", "Lucida Grande", Arial, sans-serif;
+  width: 100%;
+}
+
+/* Header */
+header {
+	background: url(images/header.gif) repeat-x bottom;
+	height: 50px;
+}
+
+header h1 a {
+	width: 100%;
+	height: 50px;
+	display: block;
+}
+
+header h1 span {
+	position: absolute;
+	background: url(images/simpleet.jpg) no-repeat;
+	height: 220px;
+	width: 35px;
+}
+
+/* Menu */
+
+nav {
+	width: 20em;
+  float: right;
+}
+
+nav h3 {
+  font: 1.4em 'Quicksand', Verdana, "Trebuchet MS", "Lucida Grande", Arial;
+	font-weight: normal;
+	color:#F2760D;
+}
+
+nav ul {
+	margin: 0.5em 0 0.5em 0.1em;
+	list-style-type: none;
+}
+
+nav li a {
+	padding: 0.3em;
+	display: block;
+	color: #282828;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background: #f9f9f9;
+}
+
+/* Article */
+
+article {
+	margin: 4em 24em 2em 2em;
+}
+
+article h3 {
+  font: 1.4em 'Quicksand', Verdana, "Trebuchet MS", "Lucida Grande", Arial;
+	font-weight: normal;
+	margin: 2em 0 1em 0;
+	color:#F2760D;
+	letter-spacing:0.2em;
+}
+
+article p {
+  margin: 0.8em 0;
+  text-align: justify;
+}
+
+/* Footer */
+
+footer {
+  clear: both;
+	text-align: center;
+	padding: 1em 0 2em 0;
+	font-size: 0.9em;
+	color: #555;
+}
+
+footer a {
+	color: #555;
+	text-decoration: none;
+}
+
+#design-by {
+  font: 1.4em 'Andada', Georgia, Sans-Serif, Verdana;
+  text-decoration: none;
+  color: #444;
+  letter-spacing: -.1em;
+}
+

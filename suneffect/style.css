@@ -1,134 +1,119 @@
-/**************************************
-    CSS Document by Alexandre Joseph
-    http://www.alexandrejoseph.com/
-***************************************/
+---
+---
 
-body
-{
-  font: 12px/2em "Trebuchet MS", "Lucida Grande", Verdana, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+{% include reset.css %}
 
-#page
-{
+/* General */
+
+body {
+  font: 0.8em/1.5em Verdana, "Trebuchet MS", "Lucida Grande", Arial, sans-serif;
   width: 43em;
-  margin-left: 17.5em;
-  background: url(images/fond.jpg) repeat-y left #fff;
+  margin-left: 212px;
   padding: 3em 0 0.5em 4em;
+  box-shadow: inset 5px 0 15px 0 #f0f0f0;
+  -moz-box-shadow: inset 5px 0 15px 0 #f0f0f0;
+  -webkit-box-shadow: inset 5px 0 15px 0 #f0f0f0;
+  border-left: 1px solid #d3d3d3;
+  color: #333;
 }
 
-#header h1
-{
-  color: #263d5f;
-  margin: 0;
-  padding: 0;
+/* Header */
+
+header h1 {
+  font: 3em 'Quicksand', Verdana, "Trebuchet MS", "Lucida Grande", Arial;
+  line-height: 1em;
 }
 
-#header h1 a
-{
+header h1 a {
   color: #263d5f;
   text-decoration: none;
 }
 
-#header p
-{
+header h2 {
   color: #e06009;
-  margin: 0;
-  padding: 0;
+  letter-spacing: 0.3em;
 }
 
-#contenu
-{
+/* Article */
+
+article {
   margin-top: 3em;
-  min-height:65em;
-  height: 65em;
 }
 
-html>body #contenu
-{
- 	height:auto;
+article p {
+  margin: 0.8em 0;
+  text-align: justify;
 }
 
-#contenu h2, #menu h2
-{
+article h3, 
+nav h3 {
   color: #263d5f;
-  background: url(images/ligne.gif) bottom repeat-x;
+  border-bottom: 1px dotted #ececec;
+  font: 1.5em 'Quicksand', Verdana, "Trebuchet MS", "Lucida Grande", Arial;
+  padding-bottom: 0.1em;
 }
 
-#contenu h4 a
-{
-   color: black;
-   text-decoration: none;
+article h3 {
+  margin: 2em 0 1em 0;
 }
 
-#contenu a
-{
-	color: #e06009;
-	text-decoration: none;
-}
+/* Nav */
 
-#contenu ul#derniers_sujets li
-{
-	list-style: square;
-}
-
-#contenu ul#derniers_sujets li a:hover
-{
-	color: #263d5f;
-	text-decoration: underline;
-}
-
-#menu
-{
+nav {
   position: absolute;
-  width: 17.5em;
-  top: 0em;
+  width: 212px;
+  top: 0;
   left: 0;
-  padding: 25em 0 0;
-  background: url(images/header.jpg) no-repeat top;
+  padding: 310px 0 0 0;
+  background: url(img/header.jpeg) no-repeat top;
 }
 
-#menu #liens
-{
-  padding: 0 2em 0 1.5em;
+nav h3 {
+  margin: 2em; 
+  margin-bottom: 1em;
 }
 
-#menu ul
-{
-	margin: 0;
-	padding: 0;
-}
-
-#menu li
-{
+nav li {
 	list-style: none;
-	padding-left: 1em;
+	padding-left: 2.6em;
 }
 
-#menu li a
-{
+nav li a {
 	padding: 0 0.5em 0;
 	display: block;
-	color: black;
+	color: #333;
 	text-decoration: none;
 }
 
-#menu li a:hover
-{
-	background: #f9f9f9;
+nav li a:hover {
+	background: #f5f5f5;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
-#footer
-{
-	background: url(images/ligne.gif) top repeat-x;
-	color: #263d5f;
-	text-align: center;
-	padding-top: 0.5em;
+/* Footer */
+
+footer {
+  text-align: center;
+  border-top: 1px dotted #999;
+  color: #555;
+  padding: 0.3em;
+  font-size: 0.8em;
+  margin-top: 3em;
 }
 
-#footer a
-{
-	color: #263d5f;
-	text-decoration: none;
+footer a {
+  color: #888;
 }
+
+footer a:hover {
+  color: #999;
+}
+
+#design-by {
+  font: 1.4em Georgia, Sans-Serif, Verdana;
+  text-decoration: none;
+  color: #444;
+  letter-spacing: -.1em;
+}
+

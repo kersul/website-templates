@@ -1,113 +1,33 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-    <title>BlueSimple &mdash; Free CSS template by Alexandre Joseph</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="Content-Style-Type" content="text/css" />
-    <style type="text/css" media="screen" title="Default">
-        <!--
-            @import "styles.css";
-        -->
-    </style>
-</head>
-<body id="top">
-<div id="global">
-	<div id="header">
-	    <div id="title">
-		    <h1><a href="#">BlueSimple template</a></h1>
-		    <p>CSS template by Alexandre Joseph</p>
-	    </div>
-		<div id="menu">
-		    <ul>
-		        <li><a href="#">Home</a></li>
-		        <li><a href="#">Blog</a></li>
-		        <li><a href="#">CV</a></li>
-		        <li><a href="#">Projects</a></li>
-		        <li><a href="#">Contact</a></li>
-		        <li class="m-last"><a href="#">Tools</a></li>
-		    </ul>
-		</div>
-	</div>
-	<div id="content">
-		<h2>About this template</h2>
-		<p>
-		BlueSimple is a free, lightweight, tableless, W3C-valid website
-		design by <a
-		href="http://www.alexandrejoseph.com/en/">Alexandre
-		Joseph</a>. Your can download it <a
-		href="http://www.alexandrejoseph.com/projects/bluesimple/bluesimple.zip">here</a>.
-		</p>
+---
+name: BlueSimple
+layout: base
+header:
+    - <link href='http://fonts.googleapis.com/css?family=Andada|Muli' rel='stylesheet' type='text/css'>
+---
 
-		<p> 
-		This template is licensed under the Creative <a
-		href="http://creativecommons.org/licenses/by/3.0/">Commons
-		Attribution 3.0</a> so you're free to dissect, manipulate and
-		use this design to your heart's content.<br />
-		Please read and agree to the terms contained within this
-		attribution so you understand the usage agreements.
-		</p>
+{% include global.html %}
 
-		<p>
-		If you decide to use this template, I kindly ask you to leave
-		the "Designed by <a href="http://www.alexandrejoseph.com/">Alexandre
-		Joseph</a>" link in the footer.
-		</p>
+<header role="banner">
+  <div>
+  <hgroup>
+      <h1><a href="#">{{ page.name }} template</a></h1>
+      <h2>{{ slogan }}</h2>
+  </hgroup>
 
-		<p>
-		I am also interested in seeing how my templates are used, so
-		feel free to send me an <a
-		href="http://alexandrejoseph.com/en/contact/">e-mail</a>
-		with a link to your page so I can check it out!
-		</p>
+  <nav role="navigation">
+    <ul>
+      <li><a href="#">Item 1</a></li>
+      <li><a href="#">Item 2</a></li>
+      <li><a href="#">Item 3</a></li>
+      <li><a href="#">Item 4</a></li>
+      <li class="last"><a href="#">Item 5</a></li>
+    </ul>
+  </nav>
+  </div>
+</header>
 
-		<p>
-		You can find more of my work on <a
-		href="http://www.alexandrejoseph.com/en/">my website</a>.
-		</p>
 
-		<h2>&Agrave; propos de ce th&egrave;me</h2>
+{% include content.html %}
 
-		<p>
-		BlueSimple est un squelette de site, respectant les
-		recommandations du W3C et ne comportant pas de tableau pour la
-		mise en page.<br />
-		Il a &eacute;t&eacute; r&eacute;alis&eacute; par <a
-		href="http://www.alexandrejoseph.com/">Alexandre Joseph</a>. Vous
-		pouvez le télécharger <a
-		href="http://www.alexandrejoseph.com/projects/bluesimple/bluesimple.zip">ici</a>
-		</p> 
+{% include footer.html %}
 
-		<p>
-		Ce th&egrave;me de site est sous licence <a
-		href="http://creativecommons.org/licenses/by/3.0/">Commons
-		Attribution 3.0</a>, vous pouvez donc le modifier à vos souhait
-		mais en respectant les termes de cette licence.
-		</p>
-
-		<p>
-		Si vous d&eacute;cidez d'utiliser ce th&egrave;me, je vous serais
-		reconnaissant de laisser le lien en bas de la page  "Designed by
-		<a href="http://www.alexandrejoseph.com/">Alexandre Joseph</a>".
-		</p>
-
-		<p>
-		J'appr&eacute;cie par ailleurs d'&ecirc;tre averti de ce que
-		deviennent mes cr&eacute;ations, n'h&eacute;sitez pas à
-		m'envoyer un <a
-		href="http://www.alexandrejoseph.com/contact/">e-mail</a> pour
-		me montrer ce que vous en avez fait.
-		</p>
-
-		<p>
-		Si vous souhaitez voir d'autre de mes cr&eacute;ation, visitez
-		<a href="http://www.alexandrejoseph.com/">mon site web</a>.
-		</p>
-	</div>
-	<div id="footer">
-	    <p>
-		&copy; www.yoursite.com &mdash;
-		<a href="http://www.alexandrejoseph.com/">Designed by Alexandre Joseph</a>
-		</p>
-	</div>
-</div>
-</html>
